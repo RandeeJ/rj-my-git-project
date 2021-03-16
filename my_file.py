@@ -1,11 +1,11 @@
-mkdir "folder name"
-cd "folder name"
-touch "file name"
-git init
+mkdir [folder name]
+cd [folder name]
+touch [file name]
+git init #to create a git repository
 ls #to see all files
 ls -la #to see all hidden files
 git status
-git add "file name (python file)"
+git add [file name (python file)]
 git status #to see updated addition
 git commit -m "Initial commit"
 git status
@@ -18,7 +18,7 @@ CREATING A README FILE
 
 touch README.md #md means markdown
 git status
-git add .
+git add . #updates everything
 git status
 git commit -m "Add 'filename' file to repository"
 git push
