@@ -29,3 +29,6 @@ git push
 
 #-------------
 
+TROUBLESHOOTING
+
+git push origin main --force #forcing a git push
