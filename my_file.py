@@ -1,3 +1,7 @@
+After a git pull
+
+#-------- ABOVE IS A TEST ----- 
+
 mkdir [folder name]
 cd [folder name]
 touch [file name]
