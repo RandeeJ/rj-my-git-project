@@ -32,3 +32,18 @@ git push
 TROUBLESHOOTING
 
 git push origin main --force #forcing a git push
+
+# -------------MERGING FEATURE BRANCHES TO MASTER BRANCH--------
+
+git branch #to see what branch you are on
+git checkout -b readme-styling
+git branch
+# edit Readme
+git add Readme.md
+git commit -m "Updated Readme"
+git status
+git checkout main
+git merge readme-styling
+
+#---------------------------------------
+
