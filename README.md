@@ -11,3 +11,5 @@ Added to master again
 Made changes to git pull demo
 
 Git pull and push - made more changes for the git pull/fetch demo
+
+git remove branch
