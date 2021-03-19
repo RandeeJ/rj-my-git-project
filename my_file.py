@@ -54,3 +54,19 @@ git stash list
 git stash show
 get stash clear
 >>>>>>> Stashed changes
+
+
+git status
+git pull
+git status
+git add .
+git commit -m "Added new python function"
+git fetch
+git status
+git branch
+git status
+git merge origin/main
+git status
+git push
+
+#-----------------------------------
