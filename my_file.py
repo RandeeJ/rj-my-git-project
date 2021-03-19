@@ -32,3 +32,25 @@ git push
 TROUBLESHOOTING
 
 git push origin main --force #forcing a git push
+<<<<<<< Updated upstream
+#another change
+=======
+
+#everytime you create a commit, you are storing a version.
+
+git checkout -b stash-demo
+git status
+git checkout main
+git status
+git checkout .
+git status
+git checkout stash-demo
+git status
+git stash
+git log
+git checkout main
+git checkout stash-demo
+git stash list
+git stash show
+get stash clear
+>>>>>>> Stashed changes
