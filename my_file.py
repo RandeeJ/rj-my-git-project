@@ -70,3 +70,5 @@ git status
 git push
 
 #-----------------------------------
+
+#once you merge a branch, get rid of it
