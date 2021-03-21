@@ -142,3 +142,11 @@ git branch -d investigation #to delete branch once file is viewed
 #-------------------------------------
 #reverting an entire project back to a previous version
 
+git log #choose a commit
+git branch
+git checkout [commit code to revert to] -b investigation
+git checkout main
+git reset --hard [commit code]
+git log
+git status
+git push -f origin main
