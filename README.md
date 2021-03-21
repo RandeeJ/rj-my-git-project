@@ -1,9 +1,8 @@
 #My Git Project
 
 > My code for the git project
->
-My innocent little change
-
+> 
+My scary merge conflict code
 
 #I am in the feature branch
 

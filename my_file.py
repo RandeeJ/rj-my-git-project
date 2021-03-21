@@ -118,3 +118,7 @@ git checkout . #will not work for my_bad_file
 git status
 rm my_bad_file #to remove file!
 git status
+
+#---------------------------------------
+#fixing a mistake from past versions
+#can tell system to revert back to previous version
