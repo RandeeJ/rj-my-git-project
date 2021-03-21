@@ -131,3 +131,6 @@ rm demo_file.py
 git add .
 git commit -m "Reverted back to [commit code] for README.md"
 git push
+
+# -------------------------------------
+# viewing code from a previous version
