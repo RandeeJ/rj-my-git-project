@@ -84,9 +84,23 @@ git branch
 git pull
 git push origin --delete branch-to-remove
 
-
+#--------------------------------------------
 #merge conflicts
 #when you and another team member have worked on the same lines of code and how to work through the merge conflict
 
-My local change
+#changes made to git hub files
+# changes made to local files
+git status
+git add .
+git commit -m "Updated readme and python script"
+git fetch origin
+git status
+#determine which code you want to eliminate/keep & save
+git merge origin/main
+git status
+git add .
+git commit -m "fixed merge conflicts"
+git push
 
+
+#-------------------------------------------
