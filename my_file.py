@@ -122,3 +122,12 @@ git status
 #---------------------------------------
 #fixing a mistake from past versions
 #can tell system to revert back to previous version
+
+cp my_file.py demo_file.py
+git log
+git checkout [commit code for README taken from log] -- README.md
+git status
+rm demo_file.py
+git add .
+git commit -m "Reverted back to [commit code] for README.md"
+git push
