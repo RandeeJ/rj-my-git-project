@@ -104,3 +104,17 @@ git push
 
 
 #-------------------------------------------
+# git will keep track of changes to existing files 
+git status
+git diff my_file.py #shows changes
+git diff README.md #shows changes
+git status
+git checkout . #reverts back to file state before recent changes
+git status
+touch my_bad_file.py
+#edit/add content in my_bad_file.py
+git status
+git checkout . #will not work for my_bad_file
+git status
+rm my_bad_file #to remove file!
+git status
