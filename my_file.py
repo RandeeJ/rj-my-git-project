@@ -72,3 +72,20 @@ git push
 #-----------------------------------
 
 #once you merge a branch, get rid of it
+
+git branch
+git checkout -b branch branch-to-remove
+git add .
+git commit -m "updated readme"
+git push -u origin branch-to-remove
+git checkout main
+git branch -d branch-to-remove
+git branch
+git pull
+git push origin --delete branch-to-remove
+
+
+#merge conflicts
+#when you and another team member have worked on the same lines of code and how to work through the merge conflict
+
+My local change
