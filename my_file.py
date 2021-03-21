@@ -134,3 +134,11 @@ git push
 
 # -------------------------------------
 # viewing code from a previous version
+
+git checkout [commit code] -b investigation #investigation is new branch name
+git checkout main
+git branch -d investigation #to delete branch once file is viewed
+
+#-------------------------------------
+#reverting an entire project back to a previous version
+
